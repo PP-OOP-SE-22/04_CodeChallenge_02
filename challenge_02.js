@@ -16,30 +16,35 @@ Alter = 13-17 // Cola
 
 /* Getränke-Challenge */
 
+let Name, Age
+Name = prompt("Bitte Name eingeben");
+ Age = prompt("Bitte Alter eingeben");
+ console.log(Name);
+console.log(Age);
 
+//    Age prompt("Bitte Alter eingeben");
+let Alter1;
+// let Alter2
+// let Alter3
 
-    prompt("Bitte Alter eingeben");
+Alter1 = Number>0, Number<5  // .. Milch  
+// Alter2 = (<12, >6)  // Saft
+// Alter3 = (<17, >13)  // Cola
 
-Alter = 0-5 // Milch  
-Alter = 6-12 // Saft
-Alter = 13-17 // Cola
+switch (true) {
 
-switch (Alter) {
-
-
-    case (0-5);
-         console.log("Max trinkt Milch");
+    case "Alter1":
+         console.log( Name + "trinkt Milch.");
     break;
-
-    case (6-12);
-        console.log("Max trinkt Saft");
-    break;
-
-    case (13-17);
-        console.log("Max trinkt Cola");
-
-        default:
-            console.log("Max hat keinen Durst, er hat Hunger!")
-            break;
-
 }
+//     // case <12, >6);
+//     //     console.log("Max trinkt Saft");
+//     // break;
+
+//     // case (<17, >13);
+//     //     console.log("Max trinkt Cola");
+
+//         default:
+//             console.log("Max hat keinen Durst, er hat Hunger!")
+//             break;
+
