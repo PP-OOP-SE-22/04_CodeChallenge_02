@@ -18,7 +18,7 @@ Alter = 13-17 // Cola
 
 let Name, Age
 Name = prompt("Bitte Name eingeben");
- Age = Number(prompt("Bitte Alter eingeben"));
+ Age = Number(prompt("Bitte Alter eingeben")); // oder parseInt(Prompt(alter eingeben));
 
 //  console.log(Name);
 // console.log(Age);
