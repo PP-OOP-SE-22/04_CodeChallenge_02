@@ -18,7 +18,8 @@ Alter = 13-17 // Cola
 
 let Name, Age
 Name = prompt("Bitte Name eingeben");
- Age = prompt("Bitte Alter eingeben");
+ Age = Number(prompt("Bitte Alter eingeben"));
+
 //  console.log(Name);
 // console.log(Age);
 
@@ -27,10 +28,10 @@ let Alter2;
 let Alter3;
 let Alter4;
 
-Alter1 = (Number>0, Number<6)  // .. trinkt Milch 
-Alter2 = (Number>5, Number<13)  // .. trinkt Saft
-Alter3 = (Number>12, Number<18)  //.. trinkt Cola
-Alter4 = (Number>17, Number<100) // .. trinkt Wein
+Alter1 = (Age>0 && Age<6)  // .. trinkt Milch 
+Alter2 = (Age>5 && Age<13)  // .. trinkt Saft
+Alter3 = (Age>12 && Age<18)  //.. trinkt Cola
+Alter4 = (Age>17 && Age<100) // .. trinkt Wein
 
 switch (true) 
 {
